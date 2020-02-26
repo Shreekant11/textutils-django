@@ -1,7 +1,10 @@
 # i have created this file shree
 from django.http import HttpResponse
+from django.shortcuts import render
 def index(request):
-    return  HttpResponse("Home")
+    
+   return render(request, 'index.html')
+    #return  HttpResponse("Home")
 
 def removerpunc(request):
     return HttpResponse("removepunc")
