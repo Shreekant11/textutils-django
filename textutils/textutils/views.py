@@ -7,6 +7,10 @@ def index(request):
     #return  HttpResponse("Home")
 
 def removerpunc(request):
+    #get the text
+    djtext = request.GET.get('text', 'default')
+    print(djtext)
+    #analyze the text
     return HttpResponse("removepunc")
 
 def capitalfirst(request):

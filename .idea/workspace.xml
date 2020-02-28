@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e78dcff-0796-421a-8338-2ff610b43d1e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/textutils/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/textutils/textutils/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/textutils/textutils/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/textutils/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/textutils/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/textutils/textutils/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/textutils/textutils/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
