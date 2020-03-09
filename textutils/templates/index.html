@@ -2,12 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>template is workin</title>
+    <title>TextUtils</title>
 </head>
 <body>
 <h1>Wlcome to the text analyzer. Enter your text  belo</h1>
-<form action="/removepunc" method="get">
+<form action="/analyze" method="get">
     <textarea name="text" style='margin: 0px; width: 1360px; height: 120px;'></textarea>
+<br>
+    <input type="checkbox" name="removepunc">Remove Punctuations<br>
     <button type='submit'>Analyze Text</button>
 </form>
 </body>

@@ -20,9 +20,9 @@ from . import  views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index, name='index'),
-    path('removepunc', views.removerpunc, name='removerpunc'),
-    path('capitalfirst', views.capitalfirst, name='capitalfirstt'),
-    path('newlineremove', views.newlineremove, name='newlineremove'),
-    path('spaceremove', views.spaceremove, name='spaceremove'),
-    path('charcount', views.charcount, name='charcount'),
+    path('analyze', views.analyze, name='analyze'),
+   # path('capitalfirst', views.capitalfirst, name='capitalfirstt'),
+   # path('newlineremove', views.newlineremove, name='newlineremove'),
+   # path('spaceremove', views.spaceremove, name='spaceremove'),
+   # path('charcount', views.charcount, name='charcount'),
 ]
